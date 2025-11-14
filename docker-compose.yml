@@ -16,7 +16,7 @@ services:
     image: sambhavsurthi/endsem-preactise-docker-backend-10:latest
     container_name: springboot
     ports:
-      - "2025:2000"
+      - "2526:2000"
     depends_on:
       - mysqldb
     restart: on-failure
